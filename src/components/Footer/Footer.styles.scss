@@ -1,0 +1,50 @@
+.footer {
+  color: #fff;
+  margin-top: 20rem;
+  margin-left: 16rem;
+  margin-right: 12rem;
+  margin-bottom: 1rem;
+  &-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    &__col-1 {
+      .footer-description {
+        font-family: Gilroy;
+        font-weight: bold;
+        font-size: 1.6rem;
+        color: #ffffff;
+      }
+      .footer-copyright {
+        margin-top: 12rem;
+      }
+    }
+    &__col-2 {
+      font-family: Gilroy;
+      font-weight: bold;
+      font-size: 2.4rem;
+      color: #fbd784;
+    }
+    &__col-3 {
+      font-family: Gilroy;
+      font-weight: bold;
+      font-size: 2.4rem;
+      color: #fbd784;
+    }
+  }
+  .link-title {
+    margin-bottom: 2.4rem;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    &-text {
+      // margin-top: 2.4rem;
+      font-family: Gilroy;
+      font-weight: 500;
+      font-size: 1.2rem;
+      line-height: 3rem;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}

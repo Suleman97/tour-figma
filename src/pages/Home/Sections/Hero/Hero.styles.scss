@@ -1,0 +1,12 @@
+.hero-section__box {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80rem;
+  .hero-section__content {
+    font-size: 88px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+}
